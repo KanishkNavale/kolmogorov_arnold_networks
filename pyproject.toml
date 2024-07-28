@@ -25,6 +25,8 @@ packages = [{ include = "tests", format = "sdist" }] # FIXME
 [tool.poetry.dependencies]
 python = "^3.9"
 shtab = ">=1.6.5"
+torch = "^2.4.0"
+numpy = "^2.0.1"
 
 [tool.poetry.group.dev.dependencies]
 pontos = ">=22.10.0"
@@ -66,7 +68,7 @@ version-module-file = "kan/__version__.py"
 [tool.ruff]
 line-length = 80
 target-version = "py39"
-extend-select = ["I", "PLE", "PLW"]
+lint.extend-select = ["I", "PLE", "PLW"]
 
 # [tool.poetry.scripts]
 # example-app = 'example:main' # FIXME

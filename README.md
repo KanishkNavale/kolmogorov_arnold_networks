@@ -4,6 +4,6 @@ Pythonic implementation of [KAN](documents/paper.pdf)
 
 ## Thereotical Foundation
 
-1. Comparison for MLP & KAN:
+1. Comparison of MLP & KAN:
 
     <img src="documents/mlp-kan.jpeg" width="600"/>
