@@ -1,3 +1,9 @@
 # KAN: Kolmogorov Arnold Networks
 
-Implement KAN from the papers.
+Pythonic implementation of [KAN](documents/paper.pdf)
+
+## Thereotical Foundation
+
+1. Comparison for MLP & KAN:
+
+    <img src="documents/mlp-kan.jpeg" width="600"/>
